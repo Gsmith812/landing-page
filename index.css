@@ -81,6 +81,7 @@ button {
     border-radius: 5px;
     border-style: none;
     padding: 8px 20px;
+    font-weight: 700;
 }
 
 /* Some Information styles */
@@ -149,4 +150,37 @@ button {
     font-size: 22px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Call to Action styles*/
+
+.cta {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.cta-content {
+    color: #F9FAF8;
+}
+
+.cta-content>h3 {
+    margin-bottom: -15px;
+    padding: 0;
+}
+
+.cta-container button {
+    border: 2px solid #F9FAF8;
 }
