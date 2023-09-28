@@ -121,5 +121,32 @@ button {
     height: 150px;
 }
 
+/*Quote/Testimonial styles*/
 
+.testimonial {
+    background-color: #E5E7EB;
+}
 
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.author{
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+}
